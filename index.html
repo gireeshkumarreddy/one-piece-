@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ONE PIECE | Luffy</title>
+  <meta name="description" content="An unofficial, cinematic fan tribute to Monkey D. Luffy.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Ultra&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
+</head>
+<body class="is-loading">
+
+  <!-- Loader: the red sun fills as assets load, then opens into the first shot -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__sun"><span class="loader__count">0</span></div>
+    <p class="loader__mark">ONE PIECE</p>
+  </div>
+
+  <!-- Fixed header: wordmark, chapter names, chapter pill -->
+  <header class="hud" data-theme="dark">
+    <div class="hud__row">
+      <span class="hud__label hud__label--l"><span class="hud__roll" data-hud="label">Prologue</span></span>
+      <a class="hud__mark" href="#top" aria-label="ONE PIECE, back to the start">ONE PIECE</a>
+      <span class="hud__label hud__label--r" lang="ja"><span class="hud__roll" data-hud="jp">序章</span></span>
+    </div>
+    <div class="hud__rule">
+      <span class="hud__pill"><i></i><span class="hud__pillbox"><span class="hud__roll" data-hud="pill">Prologue</span></span><i></i></span>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- PROLOGUE -->
+    <section class="prologue scene" data-label="Prologue" data-jp="序章" data-pill="Prologue">
+      <div class="prologue__stage">
+        <div class="film prologue__film">
+          <video class="film__video" data-src="assets/video/hero.mp4" poster="assets/video/hero.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+          <div class="film__grade"></div>
+          <div class="film__grain"></div>
+        </div>
+        <div class="burn"></div>
+        <div class="letterbox"><i></i><i></i></div>
+        <p class="prologue__intro">A boy from a small village in the East Blue promised a pirate he'd return his straw hat one day, as a great pirate himself. He set out to sea alone, with nothing but that hat and a dream.</p>
+        <div class="band">
+          <span class="seal" lang="ja">麦わら</span>
+          <h2 class="band__title"><span>More than a hat.</span> <span>A promise.</span></h2>
+          <span class="seal" lang="ja">麦わら</span>
+        </div>
+        <p class="scroll-cue">Scroll</p>
+      </div>
+    </section>
+
+    <!-- NAME TICKER -->
+    <section class="marquee" aria-label="Monkey D. Luffy. Straw Hat. Emperor of the Sea. Joy Boy.">
+      <div class="marquee__row marquee__row--a" aria-hidden="true">
+        <div class="marquee__track"><span>Monkey D. Luffy</span><i></i><span>Straw Hat</span><i></i><span>Emperor of the Sea</span><i></i><span>Joy Boy</span><i></i></div>
+      </div>
+      <div class="marquee__row marquee__row--b" aria-hidden="true" lang="ja">
+        <div class="marquee__track"><span>モンキー・D・ルフィ</span><i></i><span>麦わらのルフィ</span><i></i><span>四皇</span><i></i><span>太陽の神ニカ</span><i></i></div>
+      </div>
+    </section>
+
+    <!-- BOUNTY -->
+    <section class="wanted scene" data-label="The bounty" data-jp="懸賞金" data-pill="Bounty">
+      <div class="wanted__stage">
+        <h2 class="wanted__title">Every fight raised the price on his head.</h2>
+        <div class="wanted__posters">
+          <figure class="poster poster--first">
+            <div class="poster__body">
+              <div class="poster__paper">
+                <p class="poster__wanted">WANTED</p>
+                <div class="poster__photo"><img src="assets/img/luffy-hat.webp" alt="Luffy on his first wanted poster" style="object-position:50% 24%"></div>
+                <p class="poster__doa">DEAD OR ALIVE</p>
+                <p class="poster__name">MONKEY・D・LUFFY</p>
+                <p class="poster__bounty"><span class="berry">B</span><span class="poster__amount" data-to="30000000">0</span>-</p>
+                <p class="poster__marine">MARINE</p>
+              </div>
+            </div>
+            <div class="plinth"><i></i></div>
+            <figcaption>First bounty, after Arlong Park</figcaption>
+          </figure>
+          <figure class="poster poster--now">
+            <div class="poster__body">
+              <div class="poster__paper">
+                <p class="poster__wanted">WANTED</p>
+                <div class="poster__photo"><img src="assets/img/gear5.webp" alt="Luffy in Gear 5 on his latest wanted poster" style="object-position:50% 56%"></div>
+                <p class="poster__doa">DEAD OR ALIVE</p>
+                <p class="poster__name">MONKEY・D・LUFFY</p>
+                <p class="poster__bounty"><span class="berry">B</span><span class="poster__amount" data-live>30,000,000</span>-</p>
+                <p class="poster__marine">MARINE</p>
+              </div>
+            </div>
+            <div class="plinth"><i></i></div>
+            <figcaption>Emperor of the Sea, after Wano</figcaption>
+          </figure>
+        </div>
+        <ol class="bounty-line" aria-label="Luffy's bounty over time">
+          <li data-v="30000000"><b>30M</b><span>Arlong Park</span></li>
+          <li data-v="100000000"><b>100M</b><span>Alabasta</span></li>
+          <li data-v="300000000"><b>300M</b><span>Enies Lobby</span></li>
+          <li data-v="400000000"><b>400M</b><span>Marineford</span></li>
+          <li data-v="500000000"><b>500M</b><span>Dressrosa</span></li>
+          <li data-v="1500000000"><b>1.5B</b><span>Whole Cake Island</span></li>
+          <li data-v="3000000000"><b>3B</b><span>Wano</span></li>
+          <i class="bounty-line__fill" aria-hidden="true"></i>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CHAPTER I -->
+    <section class="chapter scene" id="dream" data-label="The dream" data-jp="夢" data-pill="Chapter I">
+      <div class="chapter__pin">
+        <div class="chapter__track">
+          <div class="panel panel--opener">
+            <figure class="arch arch--l"><img src="assets/img/luffy-hat.webp" alt="Luffy tipping his straw hat" style="object-position:50% 35%"></figure>
+            <figure class="arch arch--r"><img src="assets/img/luffy-red.webp" alt="Luffy holding his hat against a red sky" style="object-position:46% 50%"></figure>
+            <div class="film opener__film">
+              <video class="film__video" data-src="assets/video/flames.mp4" poster="assets/video/flames.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+              <div class="film__grain"></div>
+            </div>
+            <div class="burn"></div>
+            <div class="letterbox"><i></i><i></i></div>
+            <h2 class="opener__title" aria-label="Chapter one, the dream"><span class="opener__kanji" lang="ja" aria-hidden="true">夢</span><span class="opener__en" aria-hidden="true">The dream</span></h2>
+          </div>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">海賊王</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">King of the Pirates</h3>
+                <p class="panel__p">Luffy has never wanted to rule anyone. To him, the King of the Pirates is simply the freest person on the sea, and that's the only title he's after.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/declare.mp4" poster="assets/video/declare.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>“…and become King of the Pirates.”</figcaption>
+          </figure>
+
+          <figure class="panel panel--image is-high">
+            <div class="frame frame--wide frame--dark"><img src="assets/img/red-hawk.webp" alt="Luffy seen from behind, raising a flaming fist" loading="lazy" decoding="async"></div>
+            <figcaption>Gomu Gomu no Red Hawk</figcaption>
+          </figure>
+
+          <article class="panel panel--text is-low">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">麦わら帽子</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">The hat</h3>
+                <p class="panel__p">Shanks put it on his head at the docks of Foosha Village and made him promise to give it back once he'd become a great pirate.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-high">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/young.mp4" poster="assets/video/young.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>A boy who laughed at everything</figcaption>
+          </figure>
+
+          <figure class="panel panel--film">
+            <div class="frame frame--portrait">
+              <video class="film__video" data-src="assets/video/hattip.mp4" poster="assets/video/hattip.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Never far from his hand</figcaption>
+          </figure>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">ゴムゴムの実</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">The fruit</h3>
+                <p class="panel__p">The Gomu Gomu no Mi turned his body to rubber and took away his ability to swim. He went to sea anyway.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--image is-end">
+            <div class="frame frame--tall frame--dark"><img src="assets/img/silhouette.webp" alt="Luffy's silhouette under his straw hat" loading="lazy" decoding="async" style="object-position:50% 45%"></div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE VOYAGE: a fly-through of every picture -->
+    <section class="voyage scene" data-label="The voyage" data-jp="航海" data-pill="Interlude">
+      <div class="voyage__stage">
+        <div class="voyage__space" aria-hidden="true">
+          <figure class="card" data-x="-28" data-y="-10" data-w="14"><img src="assets/img/luffy-hat.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="27" data-y="21" data-w="26"><img src="assets/img/s-waves.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="26" data-y="-22" data-w="24"><img src="assets/img/luffy-red.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-40" data-y="8" data-w="5.5"><img src="assets/img/jolly-rogers.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-25" data-y="24" data-w="22"><img src="assets/img/s-young.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="36" data-y="4" data-w="13"><img src="assets/img/embers.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-27" data-y="-26" data-w="26"><img src="assets/img/s-five.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="24" data-y="27" data-w="22"><img src="assets/img/rage-eyes.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-38" data-y="-2" data-w="13"><img src="assets/img/crew-sunset.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="29" data-y="-27" data-w="24"><img src="assets/img/s-snowship.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-26" data-y="22" data-w="22"><img src="assets/img/red-hawk.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="38" data-y="8" data-w="11"><img src="assets/img/gear5.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-30" data-y="-22" data-w="21"><img src="assets/img/s-declare.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="26" data-y="24" data-w="15"><img src="assets/img/nakama.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="-38" data-y="12" data-w="11"><img src="assets/img/silhouette.webp" alt="" loading="lazy" decoding="async"></figure>
+          <figure class="card" data-x="28" data-y="-14" data-w="26"><img src="assets/img/s-zunesha.webp" alt="" loading="lazy" decoding="async"></figure>
+        </div>
+        <div class="voyage__intro">
+          <p class="voyage__kicker" lang="ja">航海</p>
+          <h2 class="voyage__title">Every island<br>remembers him.</h2>
+          <p class="voyage__sub">From the East Blue to Wano, in pictures.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER II -->
+    <section class="chapter scene" id="crew" data-label="The crew" data-jp="仲間" data-pill="Chapter II">
+      <div class="chapter__pin">
+        <div class="chapter__track">
+          <div class="panel panel--opener">
+            <figure class="arch arch--l"><img src="assets/img/crew-sunset.webp" alt="The Straw Hat crew watching the sunset" loading="lazy" decoding="async" style="object-position:50% 60%"></figure>
+            <figure class="arch arch--r"><img src="assets/img/s-waves.webp" alt="Ships riding enormous waves" loading="lazy" decoding="async" style="object-position:50% 50%"></figure>
+            <div class="film opener__film">
+              <video class="film__video" data-src="assets/video/lineup.mp4" poster="assets/video/lineup.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+              <div class="film__grain"></div>
+            </div>
+            <div class="burn"></div>
+            <div class="letterbox"><i></i><i></i></div>
+            <h2 class="opener__title" aria-label="Chapter two, the crew"><span class="opener__kanji" lang="ja" aria-hidden="true">仲間</span><span class="opener__en" aria-hidden="true">The crew</span></h2>
+          </div>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">麦わらの一味</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">Nine he wouldn't leave behind</h3>
+                <p class="panel__p">Luffy doesn't recruit people so much as refuse to sail without them. Every one of them joined after he fought for their dream as hard as his own.</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="panel panel--roster">
+            <div class="frame frame--flags frame--dark"><img src="assets/img/jolly-rogers.webp" alt="The Jolly Rogers of every Straw Hat, stacked" loading="lazy" decoding="async"></div>
+            <div class="roster__list">
+              <p class="roster__note">In the order they joined</p>
+              <ol class="roster">
+                <li><b>Zoro</b><span>Swordsman</span></li>
+                <li><b>Nami</b><span>Navigator</span></li>
+                <li><b>Usopp</b><span>Sniper</span></li>
+                <li><b>Sanji</b><span>Cook</span></li>
+                <li><b>Chopper</b><span>Doctor</span></li>
+                <li><b>Robin</b><span>Archaeologist</span></li>
+                <li><b>Franky</b><span>Shipwright</span></li>
+                <li><b>Brook</b><span>Musician</span></li>
+                <li><b>Jinbe</b><span>Helmsman</span></li>
+              </ol>
+            </div>
+          </div>
+
+          <figure class="panel panel--image is-low">
+            <div class="frame frame--poster frame--dark"><img src="assets/img/nakama.webp" alt="Poster of the nine Straw Hats under the words One Piece and Nakama" loading="lazy" decoding="async"></div>
+            <figcaption>Nakama</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-high">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/waves.mp4" poster="assets/video/waves.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>The sea between every island</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/zoro.mp4" poster="assets/video/zoro.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Roronoa Zoro, the first to join</figcaption>
+          </figure>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">剣士</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">The first promise</h3>
+                <p class="panel__p">Zoro joined to become the world's greatest swordsman. Luffy said a future King of the Pirates should have nothing less.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low is-end">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/snowship.mp4" poster="assets/video/snowship.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Wherever the Log Pose points</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER III -->
+    <section class="chapter scene" id="will" data-label="The will" data-jp="覇気" data-pill="Chapter III">
+      <div class="chapter__pin">
+        <div class="chapter__track">
+          <div class="panel panel--opener">
+            <figure class="arch arch--l"><img src="assets/img/embers.webp" alt="Luffy in his red coat among embers" loading="lazy" decoding="async" style="object-position:50% 58%"></figure>
+            <figure class="arch arch--r"><img src="assets/img/rage-eyes.webp" alt="Luffy's face torn between ink and red" loading="lazy" decoding="async" style="object-position:50% 50%"></figure>
+            <div class="film opener__film">
+              <video class="film__video" data-src="assets/video/coat.mp4" poster="assets/video/coat.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+              <div class="film__grain"></div>
+            </div>
+            <div class="burn"></div>
+            <div class="letterbox"><i></i><i></i></div>
+            <h2 class="opener__title" aria-label="Chapter three, the will"><span class="opener__kanji" lang="ja" aria-hidden="true">覇気</span><span class="opener__en" aria-hidden="true">The will</span></h2>
+          </div>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">鬼ヶ島</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">Onigashima</h3>
+                <p class="panel__p">On the island of demons, five fighters reached the roof of the skull. Two Emperors were waiting for them there.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/five.mp4" data-t="3.6" poster="assets/video/five.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Luffy, Zoro, Law, Kid and Killer on the roof of the skull</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-high">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/kaido.mp4" poster="assets/video/kaido.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Kaido of the Beasts</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/standoff.mp4" data-t="1.1" poster="assets/video/standoff.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Between two Emperors</figcaption>
+          </figure>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">覇王色の覇気</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">Conqueror's Haki</h3>
+                <p class="panel__p">Only a few people in a generation are born with it: the will to overpower others by presence alone. On that rooftop, Luffy learned to wrap it around his fists.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/sky.mp4" poster="assets/video/sky.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Big Mom</figcaption>
+          </figure>
+
+          <div class="panel panel--strip is-end">
+            <div class="frame"><video class="film__video" data-src="assets/video/law.mp4" poster="assets/video/law.webp" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+            <div class="frame"><video class="film__video" data-src="assets/video/yamato.mp4" poster="assets/video/yamato.webp" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+            <div class="frame"><video class="film__video" data-src="assets/video/kaido-blue.mp4" poster="assets/video/kaido-blue.webp" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE AWAKENING: scroll scrubs the footage frame by frame -->
+    <section class="awaken scene" data-label="The awakening" data-jp="覚醒" data-pill="Interlude">
+      <div class="awaken__stage">
+        <canvas class="awaken__canvas" role="img" aria-label="Luffy lies defeated on the rooftop, rises, and awakens into Gear 5"></canvas>
+        <div class="film__grade"></div>
+        <div class="film__grain"></div>
+        <div class="burn burn--white"></div>
+        <div class="letterbox letterbox--tall"><i></i><i></i></div>
+        <div class="awaken__subs">
+          <p class="sub"><span lang="ja">鬼ヶ島</span>He fell.</p>
+          <p class="sub"><span lang="ja">解放のドラム</span>Then the drums began.</p>
+          <p class="sub"><span lang="ja">笑い</span>And he laughed.</p>
+        </div>
+        <h2 class="awaken__title"><span class="awaken__jp" lang="ja">ギア5</span><span class="awaken__gear">GEAR 5</span></h2>
+        <div class="awaken__meter" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- CHAPTER IV -->
+    <section class="chapter chapter--sun scene" id="sun" data-label="The sun" data-jp="太陽" data-pill="Chapter IV">
+      <div class="chapter__pin">
+        <div class="chapter__track">
+          <div class="panel panel--opener">
+            <figure class="arch arch--l"><img src="assets/img/gear5.webp" alt="Luffy in Gear 5, laughing under the moon" loading="lazy" decoding="async" style="object-position:50% 62%"></figure>
+            <figure class="arch arch--r"><img src="assets/img/s-g5run.webp" alt="Gear 5 Luffy grinning mid-stride" loading="lazy" decoding="async" style="object-position:50% 40%"></figure>
+            <div class="film opener__film">
+              <video class="film__video" data-src="assets/video/g5moon.mp4" poster="assets/video/g5moon.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+              <div class="film__grain"></div>
+            </div>
+            <div class="burn burn--white"></div>
+            <div class="letterbox"><i></i><i></i></div>
+            <h2 class="opener__title" aria-label="Chapter four, the sun"><span class="opener__kanji" lang="ja" aria-hidden="true">太陽</span><span class="opener__en" aria-hidden="true">The sun</span></h2>
+          </div>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">解放のドラム</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">The drums of liberation</h3>
+                <p class="panel__p">His heartbeat began to sound like drums. Then he started laughing, and the fight turned into something no one had seen in eight hundred years.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/zunesha.mp4" poster="assets/video/zunesha.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Zunesha hears the drums</figcaption>
+          </figure>
+
+          <article class="panel panel--text is-high">
+            <div class="panel__body">
+              <p class="vjp" lang="ja">ギア5</p>
+              <div class="panel__copy">
+                <h3 class="panel__h">Gear 5</h3>
+                <p class="panel__p">His fruit had a hidden name all along: Hito Hito no Mi, Model: Nika. The Sun God, a warrior who sets people free and leaves them laughing.</p>
+              </div>
+            </div>
+          </article>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--wide">
+              <video class="film__video" data-src="assets/video/g5run.mp4" poster="assets/video/g5run.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Hito Hito no Mi, Model: Nika</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-high">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/nika.mp4" poster="assets/video/nika.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>Nika, the warrior of liberation</figcaption>
+          </figure>
+
+          <figure class="panel panel--film is-low">
+            <div class="frame frame--cine">
+              <video class="film__video" data-src="assets/video/dragon.mp4" poster="assets/video/dragon.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+              <div class="film__grade"></div>
+            </div>
+            <figcaption>The Sun God against the dragon</figcaption>
+          </figure>
+
+          <blockquote class="panel panel--quote is-end">
+            <p class="vjp" lang="ja">ジョイボーイが帰ってきた</p>
+            <p class="quote">Joy Boy has returned.</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- EPILOGUE -->
+    <section class="epilogue scene" data-label="To be continued" data-jp="つづく" data-pill="Epilogue">
+      <div class="epilogue__stage">
+        <h2 class="epilogue__line">The One Piece is<br>still out there.</h2>
+        <div class="film epilogue__film">
+          <video class="film__video" data-src="assets/video/reel.mp4" poster="assets/video/reel.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+          <div class="film__grade"></div>
+          <div class="film__grain"></div>
+        </div>
+        <div class="letterbox"><i></i><i></i></div>
+        <p class="epilogue__mark" aria-hidden="true">ONE PIECE</p>
+        <img class="epilogue__tbc" src="assets/img/tbc.webp" alt="To be continued" loading="lazy" decoding="async">
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <button class="foot__again" type="button">Start again</button>
+    <p class="foot__note">An unofficial fan experiment, made for fun and never sold. ONE PIECE &copy; Eiichiro Oda / Shueisha, Toei Animation. Artwork and footage belong to their creators.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
